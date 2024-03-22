@@ -77,6 +77,7 @@ const LoginPage = () => {
 								value={email}
 								onChange={emailHandler}
 								id="email"
+								data-testid="email"
 							/>
 							<p className="text-red-500 text-xs mt-2 max-w-">
 								{!!emailError && emailError}
