@@ -62,7 +62,7 @@ const LoginPage = () => {
 
 	return (
 		<main className="flex items-center justify-center bg-dark-blue h-screen">
-			<div className="max-w-lg rounded-md bg-slate-100 w-full p-10">
+			<div className="max-w-lg rounded-md bg-slate-100 w-full p-10" data-testid="login">
 				<h1 className="big-title-font text-black select-none mb-10">Log in</h1>
 				<form onSubmit={submitHandler} className="flex flex-col justify-start gap-8">
 					<div className="flex justify-around items-center">
