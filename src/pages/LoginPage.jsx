@@ -97,6 +97,7 @@ const LoginPage = () => {
 								value={password}
 								type="password"
 								id="password"
+								data-testid="password"
 							/>
 							<p className="text-red-500 text-xs mt-2 max-w-56">
 								{!!passwordError && passwordError}
