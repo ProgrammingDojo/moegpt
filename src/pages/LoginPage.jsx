@@ -110,6 +110,7 @@ const LoginPage = () => {
 						}`}
 						disabled={isDisabled}
 						type="submit"
+						data-testid="submit"
 					>
 						Log in
 					</button>
